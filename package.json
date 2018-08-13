@@ -1,0 +1,32 @@
+{
+    "name": "node-slack-deployer",
+    "version": "1.0.0",
+    "description": "Slack Deployer for AWS Codedeploy",
+    "main": "app.js",
+    "scripts": {
+        "test": "mocha --exit",
+        "dev": "nodemon start.js",
+        "start": "node start.js"
+    },
+    "author": "Davide Di Mauro",
+    "license": "ISC",
+    "dependencies": {
+        "aws-sdk": "^2.153.0",
+        "body-parser": "^1.18.2",
+        "dotenv": "^6.0.0",
+        "es6-promisify": "^5.0.0",
+        "express": "^4.16.2",
+        "express-basic-auth": "^1.1.4",
+        "express-winston": "^2.4.0",
+        "raven": "^2.4.2",
+        "winston": "^2.4.0"
+    },
+    "devDependencies": {
+        "nodemon": "*",
+        "jest": "^22.0.4",
+        "chai": "*",
+        "dotenv": "^6.0.0",
+        "chai-http": "*",
+        "mocha": "*"
+    }
+}
